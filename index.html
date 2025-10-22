@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panel de Análisis de Sociograma</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.7.1/dist/chart.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.0.0"></script>
+    <style>
+        /* Estilos CSS mínimos para carga */
+        body { font-family: Arial, sans-serif; background-color: #f4f7f6; margin: 0; padding: 0; }
+        .header { background: #34495e; color: white; padding: 15px 20px; }
+        .container { display: flex; gap: 20px; max-width: 1400px; margin: 20px auto; min-height: 80vh; }
+        .sidebar { flex: 0 0 280px; background: white; padding: 15px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+        .content-area { flex-grow: 1; display: flex; gap: 15px; }
+        #left-content { flex: 2; background: white; padding: 25px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+        #right-detail { flex: 1; background: #ecf0f1; padding: 15px; border-radius: 8px; box-shadow: inset 0 0 5px rgba(0,0,0,0.1); }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Dashboard de Análisis Sociométrico</h1>
+        <p id="metadata">Cargando datos...</p>
+    </div>
+    
+    <div class="container">
+        <div class="sidebar">
+            <h3>ANÁLISIS POR ESTUDIANTE</h3>
+            <div id="student-list" class="list-group"></div>
+            
+            <h3 style="margin-top: 25px;">RESUMEN POR PREGUNTA</h3>
+            <div id="question-list" class="list-group"></div>
+        </div>
+        
+        <div class="content-area">
+            <div id="left-content">
+                <h2>Bienvenido</h2>
+                <p>Selecciona una opción del menú lateral para cargar el análisis.</p>
+                <div id="plot-area" style="width: 100%; height: 90%;">
+                    <canvas id="main-chart"></canvas>
+                </div>
+                <div id="text-area"></div>
+            </div>
+
+            <div id="right-detail">
+                <h3>ESTUDIANTES QUE VOTARON</h3>
+                <pre id="voters-detail">Votantes aparecerán aquí al hacer clic en una barra del gráfico.</pre>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
