@@ -1,0 +1,40 @@
+{
+    "RUT": "233128422",
+    "Nombre": "MATIAS ANDRES",
+    "Curso": "1EM-A",
+    "1_Recreo_Mas": [
+        "ANABELLA CEREGHINO STONE",
+        "CARLOS ROMAN ESPECH MARTINEZ"
+    ],
+    "2_Recreo_Menos": [
+        "ANABELLA CEREGHINO STONE",
+        "ISIDORA ANTONIA DIEHL URQUIETA"
+    ],
+    "3_Trabajo_Mas": [
+        "JOAQUIN EDUARDO CRUZ MORALES",
+        "ISIDORA ANTONIA DIEHL URQUIETA"
+    ],
+    "4_Trabajo_Menos": [
+        "ISIDORA ANTONIA DIEHL URQUIETA",
+        "CARLOS ROMAN ESPECH MARTINEZ"
+    ],
+    "1.1_Explicacion_Recreo_Mas": "4",
+    "2.1_Explicacion_Recreo_Menos": "6",
+    "3.1_Explicacion_Trabajo_Mas": "77",
+    "4.1_Explicacion_Trabajo_Menos": "88",
+    "5_Molesta_Continuamente": [
+        "KATERINA ISABEL BRUCHER ALOMAR",
+        "ANABELLA CEREGHINO STONE"
+    ],
+    "5.1_Bromas_Afectado": "11",
+    "6_Integrar_Harias": "Sí",
+    "7_Acercarse_Solo": "Sí",
+    "8_Companero_Solo": [
+        "Nadie / No Aplica"
+    ],
+    "9_Lider_Positivo_Identificado": "Sí",
+    "10_Lider_Positivo_Quien": [
+        "Nadie / No Aplica"
+    ],
+    "11_Comentarios_Adicionales": "123hn "
+}
